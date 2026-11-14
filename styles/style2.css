@@ -1,0 +1,51 @@
+body > h2 {
+    text-align: center;
+    color: #b30000;
+    margin: 30px 0 20px;
+    font-size: 28px;
+}
+
+body > form {
+    width: 420px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    border-radius: 8px;
+}
+
+body > form input,
+body > form select {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+body > form input:focus,
+body > form select:focus {
+    border-color: #b30000;
+}
+
+body > form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b30000;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body > form button:hover {
+    background-color: #800000;
+}
+
+@media (max-width: 500px) {
+    body > form {
+        width: 90%;
+    }
+}
